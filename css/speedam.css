@@ -1,231 +1,232 @@
-
-
-html,body,header,footer,aside,section,div { display:block; }
-html, body,ul, li {
-  margin:0;
-  padding:0;
+html, body, header, footer, aside, section, div {
+	display: block;
 }
-body{
-  width:100%;
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  font-size: 1em;
-  /*background-color: #fce58e;*/
- background-color: lightgray;
-  }
+html, body, ul, li {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	/*background-color: #fce58e;*/
+	background-color: lightgray;
+}
 .wrapper {
-  margin: 0 auto;
-  width: 80%;
-  min-width: 1028px;
-  background-color:lightgray;
-  margin-top:2px;
+	margin: 0 auto;
+	width: 80%;
+	min-width: 1028px;
+	background-color: lightgray;
+	margin-top: 2px;
 }
 #pageHeader {
-  /*background-color: #6E211B;*/
-   background-color: #660000;
-  color:#E8B048;
-  text-align: right;
-  font-size:1.5em;
-  font-weight:bolder;
-  height:120px;
-  
+	/*background-color: #6E211B;*/
+	background-color: #660000;
+	color: #E8B048;
+	text-align: right;
+	font-size: 1.5em;
+	font-weight: bolder;
+	height: 120px;
 }
-#headerImage  {
-   vertical-align: middle;
-   float:left;
-   padding:15px;
-  }
+#headerImage {
+	vertical-align: middle;
+	float: left;
+	padding: 15px;
+}
 #headerText {
-  float:left;
-  text-align:right;
-  padding-top:20px;
+	float: left;
+	text-align: right;
+	padding-top: 20px;
 }
 #headerTextTamil {
-  float:right;
-  text-align:right;
-  padding-top:20px;
+	float: right;
+	text-align: right;
+	padding-top: 20px;
 }
 
-#headerText  ul { list-style-type: none;
- margin:0;
- padding:3px;
- }
- 
- #headerTextTamil  ul { list-style-type: none;
- margin:0;
- padding:3px;
- }
- 
- #headerText ul li:first-child {
-  font-size:1em;
- }
- 
- #headerTextTamil ul li:first-child {
-  font-size:1.1em;
-  font-weight: bold;
- }
- 
- #headerText ul li {
-  font-size:.6em;
- }
-
- #headerTextTamil ul li {
-  font-size:.6em;
- }
- 
-table{
-	width:100%;	
+#headerText  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 3px;
 }
 
-#tableHead{
-	text-align:center;
+#headerTextTamil  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 3px;
+}
+
+#headerText ul li:first-child {
+	font-size: 1em;
+}
+
+#headerTextTamil ul li:first-child {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#headerText ul li {
+	font-size: .6em;
+}
+
+#headerTextTamil ul li {
+	font-size: .6em;
+}
+
+table {
+	width: 100%;
+}
+
+#tableHead {
+	text-align: center;
 	font-size: 1em;
 	font-weight: bold;
 	background-color: #E8B048;
 }
 
-
-
-footer{
-  clear: both;
-  background-color: #6E211B;
-  height: 60px; 
-  padding-top: 1em;
-  
+footer {
+	clear: both;
+	background-color: #6E211B;
+	height: 60px;
+	padding-top: 1em;
 }
 footer a {
-  float: right;
-  padding-right: 1em;
+	float: right;
+	padding-right: 1em;
 }
 
+nav {
+	width: 100%;
+	overflow: hidden;
+	background-color: lightgray;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul li {
+	float: left;
+	padding-right: 3em;
+	padding-top: .3em;
+	padding-bottom: .3em;
+	font-weight: bolder;
+}
 
-nav
- {
- width:100%;
- overflow:hidden;
- background-color: lightgray;
- }
- nav ul { 
-   list-style-type:none;
-  }
- nav ul li { float: left; padding-right:3em;padding-top:.3em; padding-bottom:.3em; font-weight:bolder; }
- 
- nav ul li a {
-  font-size:.9em;
-  text-decoration: none;
-  color: #660000;
-  vertical-align: middle;
- }
- 
- nav ul li a:hover {
-  color: #E8B048;
-  text-decoration: underline;
- }
+nav ul li a {
+	font-size: .9em;
+	text-decoration: none;
+	color: #660000;
+	vertical-align: middle;
+}
+
+nav ul li a:hover {
+	color: #E8B048;
+	text-decoration: underline;
+}
 
 nav ul li a img {
-  vertical-align: middle;
-  padding-right: .4em;
+	vertical-align: middle;
+	padding-right: .4em;
 }
 
-#topSection{
-  clear:both;
-  margin:0;
-  width:100%;
-  padding:2px;
-  height:220px;
+#topSection {
+	clear: both;
+	margin: 0;
+	width: 100%;
+	padding: 2px;
+	height: 220px;
 }
 
-#templeshortdescription
-{
-  background-image: url(/SabariPeedam/images/intro.png);
-  background-repeat: no-repeat;
-  height:inherit;
-  width: 80%;
-  float: left;
-  box-sizing: border-box;
-  font-size: .80em;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #FFFFFF;
+#templeshortdescription {
+	background-image: url(/SabariPeedam/images/intro.png);
+	background-repeat: no-repeat;
+	height: inherit;
+	width: 80%;
+	float: left;
+	box-sizing: border-box;
+	font-size: .80em;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #FFFFFF;
 }
 
 #templeshortdescription > h2 {
-	text-align:center;
+	text-align: center;
 }
 
 #poojaTimings {
-  background-color: white;
-  height:inherit;
-  float:left;
-  width: 20%;
-  box-sizing: border-box;
-  /*border: 1px dotted #660000;*/
-  /*border-radius: 12px 12px;*/
-  font-size: .75em;
-  padding:15px;
-  border-right: 1px solid lightgray;	
-  /*padding:0em .5em 0em .5em;*/
+	background-color: white;
+	height: inherit;
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+	/*border: 1px dotted #660000;*/
+	/*border-radius: 12px 12px;*/
+	font-size: .75em;
+	padding: 15px;
+	border-right: 1px solid lightgray;
+	/*padding:0em .5em 0em .5em;*/
 }
 
 #poojaTimings table {
-  cellpadding:0;
-  cellspaceing:0;
-  width:100%;
-  /*background-color:#808080;*/
+	cellpadding: 0;
+	cellspaceing: 0;
+	width: 100%;
+	/*background-color:#808080;*/
 }
 
 #templeshortdescription section {
 	padding: 6px;
-	text-align:justify;
+	text-align: justify;
 }
 
 #poojaTimings table thead th:first-of-type {
 	font-size: 1.2em;
-	color:red;
+	color: red;
 }
 
 #poojaTimings table tr  td:first-child {
-	text-align:right;
+	text-align: right;
 }
 
 #poojaTimings table tr  td:last-child {
-	text-align:left;
+	text-align: left;
 }
 
-#events{
-  clear:both;
-  width:100%;
-  height: 310px;
-  border-top: 5px solid lightgray;
-  box-sizing: border-box;
-  background-color: #FFFFFF;
+#events {
+	clear: both;
+	width: 100%;
+	height: 310px;
+	border-top: 5px solid lightgray;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
 }
 
-#dailyEvents{
-  width: 40%;
-  float:left;
-  border-right:5px solid lightgray; 
-  box-sizing: border-box;
-  height: 100%;
-  padding: 10px;
- }
+#dailyEvents {
+	width: 40%;
+	float: left;
+	border-right: 5px solid lightgray;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 10px;
+}
 
 #dailyEvents table {
-  width:100%;
-  font-size: .8em;
-  border:1px dotted grey;
-  /*background-color:#808080;*/
+	width: 100%;
+	font-size: .8em;
+	border: 1px dotted grey;
+	/*background-color:#808080;*/
 }
 
 #dailyEvents table th {
-	border-bottom:1px dotted grey;
+	border-bottom: 1px dotted grey;
 }
 
 #dailyEvents table td {
-	border-bottom:1px dotted grey;
+	border-bottom: 1px dotted grey;
 }
 
 #dailyEvents table td:first-of-type {
-	border-right:1px dotted grey;
+	border-right: 1px dotted grey;
 }
 
 #dailyEvents table td:nth-child(2) {
@@ -237,61 +238,126 @@ nav ul li a img {
 }
 
 #dailyEvents table tr  td:first-child {
-	text-align:center;
+	text-align: center;
 }
 
 #dailyEvents table tr  td:last-child {
-	text-align:left;
+	text-align: left;
 }
 
 /*.tableStyle {
-	font-size: .8em;
-	border-style:1px dotted grey;
-}*/
+ font-size: .8em;
+ border-style:1px dotted grey;
+ }*/
 
-
-#importantEvents{
-  width: 60%;
-  float:left;
-  box-sizing: border-box;
-  background: url('bottom.gif');
-  height: 100%;
+#importantEvents {
+	width: 60%;
+	float: left;
+	box-sizing: border-box;
+	background: url('bottom.gif');
+	height: 100%;
 }
 
 #importantEvents h1 {
 	text-align: center;
 }
 
-#subimportantEvents{
-	width:80%;
-	 margin: 0px auto;
-	 background-color:#FFFFFF;
-	 box-sizing:border-box;
-	 
+#subimportantEvents {
+	width: 80%;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
 }
 #monthlyEvent {
-  float:right;
-  /*border: dotted 1px lightgrey;*/
-  /*height: 180px;*/
-  /*padding-left: 1em;*/
-  width: 34%;
-  background-color: lightblue;
+	float: right;
+	/*border: dotted 1px lightgrey;*/
+	/*height: 180px;*/
+	/*padding-left: 1em;*/
+	width: 34%;
+	background-color: lightblue;
 }
 
 /*#photoGallery{
-  clear:both;
-  height: 160px;
-  list-style-type:none;
-  padding:.3em 0em .3em 0em;
-  overflow: hidden;
-  
-}
-#photoGallery ul li{
-  display: inline;}*/
-  
-#s1{
+ clear:both;
+ height: 160px;
+ list-style-type:none;
+ padding:.3em 0em .3em 0em;
+ overflow: hidden;
+
+ }
+ #photoGallery ul li{
+ display: inline;}*/
+
+#s1 {
 	margin: 5px auto 5px;
 	height: 180px;
 	/*margin-top: 10px;
-	margin-bottom: 10px;*/
+	 margin-bottom: 10px;*/
+}
+/* css for slider Important event */
+
+.container {
+	width: 600px;
+}
+#slides{
+	padding-top: 10px;
+	
+}
+
+#slides .slidesjs-navigation {
+	margin-top: 3px;
+}
+
+#slides .slidesjs-previous {
+	margin-right: 5px;
+	float: left;
+}
+
+#slides .slidesjs-next {
+	margin-right: 5px;
+	float: right;
+}
+
+.slidesjs-pagination {
+	margin: 6px 0px 0px 250px;
+	/*float: right;*/
+	
+	list-style: none;
+}
+
+.slidesjs-pagination li {
+	float: left;
+	margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	
+	background-image: url(../Images/importantEvents/pagination.png);
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li a.active, .slidesjs-pagination li a:hover.active {
+	background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+	background-position: 0 -26px
+}
+
+#slides a:link, #slides a:visited {
+	color: #333
+}
+
+#slides a:hover, #slides a:active {
+	color: #9e2020
+}
+
+.navbar {
+	overflow: hidden
 }
