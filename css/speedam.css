@@ -11,6 +11,7 @@ body {
 	font-size: 1em;
 	/*background-color: #fce58e;*/
 	background-color: lightgray;
+	
 }
 iframe{
 	width: 100%;
@@ -22,7 +23,7 @@ iframe{
 	min-width: 1028px;
 	background-color: lightgray;
 	margin-top: 2px;
-	border: 1px red;
+	/*border: 1px red;*/
 }
 #pageHeader {
 	/*background-color: #6E211B;*/
@@ -93,13 +94,16 @@ table {
 footer {
 	clear: both;
 	background-color: #6E211B;
-	height: 50px;
+	height: 60px;
 	padding-top: 1em;
 }
 footer a {
 	float: right;
 	padding-right: 1em;
+	
 }
+
+
 
 nav {
 	/*width: 100%;*/
@@ -146,7 +150,7 @@ nav ul li a img {
 }
 
 #templeshortdescription {
-	background-image: url(/SabariPeedam/images/intro.png);
+	/*background-image: url(/SabariPeedam/images/intro.png);*/
 	background-repeat: no-repeat;
 	height: inherit;
 	width: 80%;
