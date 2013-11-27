@@ -211,7 +211,6 @@ nav ul li a img {
 }
 
 #dailyEvents table {
-<<<<<<< HEAD
 	width: 100%;
 	font-size: .8em;
 	border: 1px dotted grey;
@@ -228,7 +227,6 @@ nav ul li a img {
 
 #dailyEvents table td:first-of-type {
 	border-right: 1px dotted grey;
-=======
   width:100%;
   font-size: .8em;
   border:1px dotted grey;
@@ -245,7 +243,6 @@ nav ul li a img {
 
 #dailyEvents table td:first-of-type {
 	border-right:1px dotted grey;
->>>>>>> 3119cbcbfb146105581766f12c56dadc4c6215ed
 }
 
 #dailyEvents table td:nth-child(2) {
