@@ -95,6 +95,12 @@ footer a {
 	padding-right: 1em;
 }
 
+footer p {
+	vertical-align: middle;
+	color: #E8B048;
+	font-size: .8em;
+}
+
 nav {
 	width: 100%;
 	overflow: hidden;
@@ -214,43 +220,34 @@ nav ul li a img {
 	width: 100%;
 	font-size: .8em;
 	border: 1px dotted grey;
+	border-collapse: collapse;
 	/*background-color:#808080;*/
 }
 
-#dailyEvents table th {
-	border-bottom: 1px dotted grey;
+#dailyEvents table th,#dailyEvents td {
+	border: 1px dotted grey;
 }
 
-#dailyEvents table td {
-	border-bottom: 1px dotted grey;
-}
 
 #dailyEvents table td:first-of-type {
-	border-right: 1px dotted grey;
   width:100%;
   font-size: .8em;
-  border:1px dotted grey;
-  /*background-color:#808080;*/
 }
 
-#dailyEvents table th {
-	border-bottom:1px dotted grey;
-}
 
-#dailyEvents table td {
-	border-bottom:1px dotted grey;
-}
-
-#dailyEvents table td:first-of-type {
-	border-right:1px dotted grey;
+#dailyEvents table td:nth-child(1) {
+	width: 40%;
+	/*padding: .4em;*/
 }
 
 #dailyEvents table td:nth-child(2) {
+	width: 60%;
 	padding: .4em;
 }
 
 #dailyEvents table thead th:first-of-type {
 	font-size: 1em;
+	padding: .4em;
 }
 
 #dailyEvents table tr  td:first-child {
